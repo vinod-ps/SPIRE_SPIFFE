@@ -1,0 +1,12 @@
+spire-server:
+  tests:
+    tls:
+      enabled: true
+  federation:
+    enabled: true
+    tls:
+      spire:
+        enabled: false
+      externalSecret:
+        enabled: true
+        secretName: spire-server-federation-tls
