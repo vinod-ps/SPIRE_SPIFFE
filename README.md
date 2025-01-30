@@ -15,3 +15,5 @@ spiffe://example.org/ns/vkv/sa/nginx --> This is the spiffe id of sample nginx w
 #### Points:
 > CN name can be anything and need not to be a FQDN.
 > In this helm values, the names are same as certificate like country, CN etc..
+>
+> cat cert2.pem cert1.pem root.pem > cert2-chain.pem
